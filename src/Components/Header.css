@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: 100px;
+}
+.logo img{
+    display: flex;
+ justify-content: flex-start;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-items ul li {
+  display: flex;
+  list-style-type: none;
+  margin-right: 40px;
+  padding: 10px;
+  font-weight: 500;
+  transition: box-shadow 0.3s ease;
+}
+
+.nav-items ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+.nav-items li svg {
+  margin-right: 5px; /* Adjust the spacing between the icon and text */
+}
