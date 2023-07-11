@@ -58,16 +58,16 @@
 }
 
 .card__data2 h4 {
-  font-size: 14px; /* Adjust the font size */
-  font-weight: normal; /* Adjust the font weight */
+  font-size: 14px;
+  font-weight: normal; 
   margin-right: 5px;
   padding: 2px;
   display: flex;
-  align-items: center; /* Align the text vertically */
+  align-items: center;
 
 }
 
 .card__data2 h4 svg {
-  margin-right: 3px; /* Adjust the spacing between the icon and text */
+  margin-right: 3px; 
   
 }
